@@ -1,13 +1,11 @@
-# Final Skeleton
 # Alex Davila
-# 1465932
 # CSE150/L
 # Chen Qian
-# Introduction to Computer Networks
-# Final Project -  Implementing a Simple Router 
-# Hints/Reminders from Lab 3:
+# Computer Networks
+# Final Project -  Implementing a Router 
 #
-# To check the source and destination of an IP packet, you can use
+#
+# To check the source and destination of an IP packet, I use
 # the header information... For example:
 #
 # ip_header = packet.find('ipv4')
@@ -16,10 +14,10 @@
 #   print "Packet is from 1.1.1.1"
 #
 # Important Note: the "is" comparison DOES NOT work for IP address
-# comparisons in this way. You must use ==.
+# comparisons in this way. So I use ==.
 # 
 # To send an OpenFlow Message telling a switch to send packets out a
-# port, do the following, replacing <PORT> with the port number the 
+# port, do the following, I replace <PORT> with the port number the 
 # switch should send the packets out:
 #
 #    msg = of.ofp_flow_mod()
@@ -31,7 +29,7 @@
 #    msg.data = packet_in
 #    self.connection.send(msg)
 #
-# To drop packets, simply omit the action.
+# To drop packets, I simply omit the action.
 #
 
 from pox.core import core
@@ -53,13 +51,13 @@ class Final (object):
     connection.addListeners(self)
 
   def do_final (self, packet, packet_in, port_on_switch, switch_id):
-    # This is where you'll put your code. The following modifications have 
+    # The following modifications have 
     # been made from Lab 3:
     #   - port_on_switch: represents the port that the packet was received on.
     #   - switch_id represents the id of the switch that received the packet.
     #      (for example, s1 would have switch_id == 1, s2 would have switch_id == 2, etc...)
-    # You should use these to determine where a packet came from. To figure out where a packet 
-    # is going, you can use the IP header information.
+    # I use these to determine where a packet came from. To figure out where a packet 
+    # is going, I use the IP header information.
 
     #ofp_flow_mod properties from Lab3
     msg = of.ofp_flow_mod() #create packet out message
