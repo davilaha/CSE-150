@@ -1,0 +1,14 @@
+Alex Davila
+CSE150/L
+Chen Qian
+Computer Networks
+Final Project -  Implementing the Router 
+
+Summary:
+Created a Mininet Topology to represent the networkvtopology. 
+Created a Pox Controller with the following features: 
+	
+	All hosts able to communicate, 
+EXCEPT:
+	Untrusted Host cannot send ICMP traffic to Host 1, Host 2, Host 3, or the Server. 
+	Untrusted Host cannot send any IP traffic to the Server.
