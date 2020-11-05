@@ -1,0 +1,14 @@
+Alex Davila
+hdavilac@ucsc.edu
+hdavilac
+1465932
+
+in this submission:
+
+alexdavila-lab1.pdf     //pdf file of my answers to the pre-lab1 and lab1 questions
+
+alexdavila-script.sh    //this is a shell script that prints even numbered lines
+                        //of each file in the current directory 
+
+alexdavila-topo.py      //this simple program changes the default configuration to have 4 hosts
+                        connected to a switch
