@@ -1,0 +1,21 @@
+# ######################################################################################
+# README by Alex Davila                                                                          #
+# Comp Networks 150                                                  		       #
+# C. Quien                                                                             #
+#                                                                                      #
+#                                                                                      #
+#                                                                                      #
+# For this assignment I created a simple firewall using OpenFlow-enabled switches.     #
+# The term “firewall” is derived from building construction: a firewall is a wall      #
+# you place in buildings to stop a fire from spreading. In the case of networking,     # 
+# it is the act of providing security by not letting specified traffic pass through    #
+# the firewall. This feature is good for minimizing attack vectors and limiting the    #
+# network “surface” exposed to attackers.                                              #
+#                                                                                      #
+# In this submission:                                                                  #
+# lab3 document - specifies my approach to solving this lab                            #
+# lab3controller.py - my firewall code                                                 #                                                                    
+# README - specifying what I accomplished in this lan and my submission                #                                                                                    
+#                                                                                      #
+#                                                                                      #
+######################################################################################## 
