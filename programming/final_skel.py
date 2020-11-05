@@ -2,7 +2,6 @@
 # Alex Davila
 # CSE 150/L
 # Final Project Topology
-# Fall 2019
 
 from mininet.topo import Topo
 from mininet.net import Mininet
